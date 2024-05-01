@@ -1,4 +1,4 @@
-The config is using next public addresses:
+# The configuration of the Ignition-dev network
 
 ## Chain config
 - The initial `privileged_address` which can perform the network upgrade: 1d5adf1197c4f48dfa642261e98fcefedd2ccd805dbbd2c574ddf3ed6dc66b5a
