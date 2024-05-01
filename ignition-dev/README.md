@@ -2,7 +2,7 @@
 
 ## Chain config
 - The initial `privileged_address` which can perform the network upgrade: 1d5adf1197c4f48dfa642261e98fcefedd2ccd805dbbd2c574ddf3ed6dc66b5a
-- The public address of the authority node that produces blocks: f65d6448a273b531ee942c133bb91a6f904c7d7f3104cdaf6b9f7f50d3518871
+- The public address of the authority node that produces blocks: f16d5b417b27cf129f8b770df5f77fa7b0c389e159d79cc4aa896d92d5dd9ea8
 - The block gas limit is `100000000`.
 
 ### Gas costs
