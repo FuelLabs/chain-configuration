@@ -17,3 +17,6 @@ This state transition function is used for any blocks produced with the `state_t
 
 ## State config
 - The `coinbase` address hard coded in the genesis contract: 5a72f2b311ed44c5e9bbc70290c1f287abb56536bcb87eaaecdefcff628817a1
+- The base asset contract source code is taken from [here](https://github.com/FuelLabs/fuel-bridge/tree/b0ebf0b01a903f1866156b7c370ff03d6fb4ec49/packages/base-asset).
+  - The `ContractId` of the contract is `0x7e2becd64cd598da59b4d1064b711661898656c6b1f4918a787156b8965dc83c`.
+  - The derived(`SubId` is `0000000000000000000000000000000000000000000000000000000000000000`) base `AssetId` from this contract is `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07`.
