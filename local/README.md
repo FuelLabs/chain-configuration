@@ -29,7 +29,7 @@ This state transition function is used for any blocks produced with the `state_t
 - Contains 1 wallet with fake ETHs:
   - Wallet 1:
     ```shell
-    {"address":"00fd9e57550aa0064a87b8e5fb9a7759cc74c989f3206b6760972533db41d077","secret":"9205b6c4d6408445ae5f0850c1fc07611fe0ec4fad14305a20add72931492732","type":"block_production"}
+    {"address":"6b63804cfbf9856e68e5b6e7aef238dc8311ec55bec04df774003a2c96e0418e","secret":"de97d8624a438121b86a1956544bd72ed68cd69f2c99555b08b1e8c51ffd511c","type":"block_production"}
     ```
 - The base asset contract source code is taken from [here](https://github.com/FuelLabs/fuel-bridge/tree/b0ebf0b01a903f1866156b7c370ff03d6fb4ec49/packages/base-asset).
   - The `ContractId` of the contract is `0x7e2becd64cd598da59b4d1064b711661898656c6b1f4918a787156b8965dc83c`.
