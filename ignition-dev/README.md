@@ -1,6 +1,7 @@
 # The configuration of the Ignition-dev network
 
 ## Chain config
+- The `ChainId` is `0`.
 - The initial `privileged_address` which can perform the network upgrade: 1d5adf1197c4f48dfa642261e98fcefedd2ccd805dbbd2c574ddf3ed6dc66b5a
 - The public address of the authority node that produces blocks: f16d5b417b27cf129f8b770df5f77fa7b0c389e159d79cc4aa896d92d5dd9ea8
 - The block gas limit is `100000000`.

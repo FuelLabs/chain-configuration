@@ -1,6 +1,7 @@
 # The configuration of the Local network
 
 ## Chain config
+- The `ChainId` is `0`.
 - The initial `privileged_address` which can perform the network upgrade:
     ```shell
     {"address":"9f0e19d6c2a6283a3222426ab2630d35516b1799b503f37b02105bebe1b8a3e9","secret":"d80a243ef91956f626d1dad2f23bdfeb73fd0b363282b1eb2227ac5964144afb","type":"block_production"}
