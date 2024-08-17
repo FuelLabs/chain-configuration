@@ -1,5 +1,5 @@
 {
-  "chain_name": "Ignition-Dev",
+  "chain_name": "Fuel Ignition Sepolia Devnet",
   "consensus_parameters": {
     "V1": {
       "tx_params": {
