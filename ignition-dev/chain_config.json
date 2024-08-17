@@ -267,7 +267,7 @@
     "PoAV2": {
       "genesis_signing_key": "f16d5b417b27cf129f8b770df5f77fa7b0c389e159d79cc4aa896d92d5dd9ea8",
       "signing_key_overrides": {
-        "7625610": "ec646eb75857f5d7ae08476dfae7362e334a505c11f5ceacb7cd8021f66e4dc9"
+        "8471053": "ec646eb75857f5d7ae08476dfae7362e334a505c11f5ceacb7cd8021f66e4dc9"
       }
     }
   }
