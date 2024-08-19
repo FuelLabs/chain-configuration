@@ -1,5 +1,5 @@
 {
-  "chain_name": "Ignition",
+  "chain_name": "Fuel Sepolia Testnet",
   "consensus_parameters": {
     "V1": {
       "tx_params": {
@@ -264,8 +264,11 @@
     }
   },
   "consensus": {
-    "PoA": {
-      "signing_key": "e8df6d432b2584a3ea9d0badf297c3b525bae71b577d22c1ccc12519adb64d92"
+    "PoAV2": {
+      "genesis_signing_key": "e8df6d432b2584a3ea9d0badf297c3b525bae71b577d22c1ccc12519adb64d92",
+      "signing_key_overrides": {
+        "7625610": "d9173046b109cc24dfa1099d3c48d8b8b810e3279344cfc3d2bd13149e18c402"
+      }
     }
   }
 }
