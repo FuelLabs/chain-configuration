@@ -16,6 +16,7 @@ env:
 
 jobs:
   publish-to-s3:
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
@@ -37,7 +38,7 @@ jobs:
           cache: 'pip'
 
       - name: Install s3cmd tool
-        run: pip install s3cmd
+        run: pip install -r requirements.txt
 
       - name: Sync files to S3
-        run: s3cmd sync —exclude '.git*' --delete-removed ./ s3://${{ env.AWS_S3_BUCKET }}/
+        run: s3cmd --exclude '.git*' --delete-removed sync ./ s3://${{ env.AWS_S3_BUCKET }}/
