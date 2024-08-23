@@ -41,4 +41,4 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Sync files to S3
-        run: s3cmd sync —exclude '.git*' --delete-removed ./ s3://${{ env.AWS_S3_BUCKET }}/
+        run: s3cmd --exclude '.git*' --delete-removed sync ./ s3://${{ env.AWS_S3_BUCKET }}/
