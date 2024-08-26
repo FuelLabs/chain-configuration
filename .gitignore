@@ -1,0 +1,10 @@
+.DS_Store
+.terraform
+*.tfstate*
+*.terraform.lock.hcl*
+.vscode
+.envrc
+.direnv
+.cov
+.idea
+.env
