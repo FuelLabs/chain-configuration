@@ -1,5 +1,5 @@
 {
-  "chain_name": "Fuel Ignition",
+  "chain_name": "Ignition",
   "consensus_parameters": {
     "V1": {
       "tx_params": {
