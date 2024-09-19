@@ -14,13 +14,13 @@
 
 ### Gas costs
 
-The gas costs was created from the [benchmarks_fuel_core_0_26_0.json](benchmarks_fuel_core_0_26_0.json) benchmark results.
-The `new_storage_per_byte` is manually set to be `63`.
-The `vm_initialization.gas_per_unit` is manually set to be `0`.
+The gas costs was created from the [benchmarks_fuel_core_0_35_0.json](benchmarks_fuel_core_0_35_0.json) benchmark results.
+The `new_storage_per_byte` is manually set to be `233`.
+The `gas_per_byte` is manually set to be `233`.
 
 ### State transition
-The state transition bytecode from [`0.26.0` release](https://github.com/FuelLabs/fuel-core/releases/download/v0.26.0/fuel-core-0.26.0-aarch64-apple-darwin.tar.gz).
-This state transition function is used for any blocks produced with the `state_transition_bytecode_version` equal to `0`.
+The state transition bytecode from [`0.36.0` release](https://github.com/FuelLabs/fuel-core/releases/download/v0.36.0/fuel-core-0.36.0-aarch64-apple-darwin.tar.gz).
+This state transition function is used for any blocks produced with the `state_transition_bytecode_version` equal to `11`.
 
 ## State config
 - The `coinbase` address hard coded in the genesis contract: 
