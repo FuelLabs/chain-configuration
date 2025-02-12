@@ -113,7 +113,6 @@ jobs:
           - Mainnet: ${{ steps.get-versions.outputs.mainnet_version }}
           - Testnet: ${{ steps.get-versions.outputs.testnet_version }}
           - Devnet: ${{ steps.get-versions.outputs.devnet_version }}" \
-          --reviewer FuelLabs/client \
           --base master \
           --head "$branch_name"
       env:
