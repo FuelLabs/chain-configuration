@@ -10,4 +10,4 @@ It is also available via CDN from https://chain-config-assets.fuel.network.
 |----------|---------|
 | Mainnet | 0.43.2 |
 | Testnet | 0.44.0 |
-| Devnet | 0.44.0 |
+| Devnet | 0.45.1 |
