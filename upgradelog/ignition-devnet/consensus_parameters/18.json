@@ -298,7 +298,7 @@
       }
     },
     "base_asset_id": "f8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07",
-    "block_gas_limit": 30000000,
+    "block_gas_limit": 42000000,
     "block_transaction_size_limit": 2600960,
     "privileged_address": "b0c319eb0751b33b57e3b3fcc1a960ca5a1e239cccc1b45ce40fdae8fcb989d7"
   }
