@@ -28,7 +28,6 @@ approval_rules:
     requires:
       count: 0
     if:
-      author_is_only_contributor: true
       only_changed_files:
         paths:
           - "^README.md$"
