@@ -1,0 +1,36 @@
+# curl https://policy-bot.fuel.network/api/validate -XPUT -T .policy.yml
+# high level policy
+policy:
+  approval:
+    - or:
+      - the em team has approved
+      - a member of the client team has approved
+      - an automatic README update
+  disapproval:
+    # any disapproval from EMs will prevent merge until resolved
+    requires:
+      teams:
+        - "FuelLabs/engineering-managers"
+
+# the list of rules
+approval_rules:
+  - name: the em team has approved
+    requires:
+      count: 1
+      teams:
+        - "FuelLabs/engineering-managers"
+  - name: a member of the client team has approved
+    requires:
+      count: 1
+      teams:
+        - "FuelLabs/client"
+  - name: an automatic README update
+    requires:
+      count: 0
+    if:
+      author_is_only_contributor: true
+      only_changed_files:
+        paths:
+          - "^README.md$"
+      only_has_contributors_in:
+        users: ["actions-user"]

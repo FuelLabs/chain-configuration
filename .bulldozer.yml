@@ -1,0 +1,11 @@
+version: 1
+merge:
+  trigger:
+    branch_patterns: ["version-update-.*"]
+    auto_merge: true
+  ignore:
+    labels: ["do not merge"]
+  method: squash
+  required_statuses:
+    - "policy-bot: master"
+  delete_after_merge: true
