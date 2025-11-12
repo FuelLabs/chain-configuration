@@ -33,4 +33,4 @@ approval_rules:
         paths:
           - "^README.md$"
       only_has_contributors_in:
-        users: ["actions-user"]
+        users: ["github-actions[bot]"]
