@@ -8,6 +8,6 @@ It is also available via CDN from https://chain-config-assets.fuel.network.
 
 | Network  | Version |
 |----------|---------|
-| Mainnet | 0.46.0 |
+| Mainnet | 0.47.1 |
 | Testnet | 0.47.1 |
 | Devnet | 0.47.1 |
