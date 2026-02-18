@@ -308,7 +308,8 @@
   "genesis_state_transition_version": 32,
   "consensus": {
     "PoAV2": {
-      "genesis_signing_key": "afaf07e77aab90b59556f990bf9b3dc5a242f0dac680908fec7e79bb0cdc9027"
+      "genesis_signing_key": "afaf07e77aab90b59556f990bf9b3dc5a242f0dac680908fec7e79bb0cdc9027",
+      "signing_key_overrides": {}
     }
   }
 }
